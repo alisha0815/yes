@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url("https://kit.fontawesome.com/4d5ebfaa9c.js");
+
+body {
+    font-family: 'Nunito', serif;
+    color: darkblue;
+    background-color: rgb(240, 240, 240);
+    font-size:  15px;
+    line-height: 1.5;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Poppins', serif;
+    color: greenyellow;
+ }
+
+h2 {
+    font-family: 'Nunito', serif;
+    color: grey;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color:darkslateblue;
+}
+
+a:hover {
+    color: indigo;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-style: italic;
+    color:greenyellow;
+}
+.banner {
+    background-image: url("https://source.unsplash.com/QQ9LainS6tI/1600x900");
+    background-size: cover;
+    color: goldenrod;
+    padding: 180px 0;
+    box-shadow: 0 5px 15pz rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 10px;
+    object-fit: cover;
+}
+
+.container {
+    background-color: auto;
+    width: 700px;
+    margin: 50px auto;
+}
+
+.card {
+    width: 700px;
+    margin: 50px auto;
+    font-size: 8px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(150, 150, 150);
+    text-align: center;
+}
+
+.link-medium {
+    background-image: linear-gradient(0.5deg, lightblue, transparent);
+    color:royalblue;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+}
+.social-icon{
+    font-size: 32px;
+    color: rgb(220, 220, 220);
+    margin: 8px 24px;
+}
+  
+.social-icon:hover {
+    color:rgb(200, 200, 200)
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+}
